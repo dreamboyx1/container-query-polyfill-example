@@ -21,7 +21,7 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "prod": "yarn run build; serve -s build",
+    "prod": "npm run build; serve -s build",
     "serve": "serve -s build",
     "start": "react-scripts start",
     "build": "react-scripts build",

@@ -2,9 +2,25 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+This project is meant as a minimal project to show that tailwindcss and [container-query-polyfill](https://cdn.jsdelivr.net/npm/container-query-polyfill@1/dist/container-query-polyfill.modern.js)
+are not playing well together.
+
+The example is a simle line of text that should underling at 640px and wider.
+
+For testing the polyfill. I'm using:
+
+- Mac Firefox 106.0.5 (64-bit)
+- MacOS 12.6.1
+
+Noticed some oddity in that if I reload the page many times, it occasionally works. More often it fails. It may be some race condition.
+
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm run prod`
+
+Builds a production version of the app and then runs `server -s build` on the output.
 
 ### `npm start`
 
