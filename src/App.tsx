@@ -1,6 +1,6 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "./logo.svg";
+import "./App.css";
 
 function App() {
   return (
@@ -10,6 +10,11 @@ function App() {
         <p>
           Edit <code>src/App.tsx</code> and save to reload.
         </p>
+        <div className="@container test-container">
+          <div className="@xl:underline">
+            this is a test underlined at 36rem
+          </div>
+        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
