@@ -17,6 +17,8 @@ For testing the polyfill. I'm using:
 
 Why `npm run prod`? This was working when running in development mode (`npm start`). So, I spend time implemetng it for several components only to have it fail in prod. I assume some sort of optimization is stomping on things. I have not yet found which one. In my 'real' app we use craco and I disabled minification and that did not help. IDK.
 
+I've also created a git tailwindcss-container-query on branch tailwindcss-container-query which has the same issues.
+
 Noticed some oddity in that if I reload the page many times, it occasionally works. More often it fails.
 
 ## Available Scripts
