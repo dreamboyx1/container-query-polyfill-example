@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-This project is meant as a minimal project to show that tailwindcss and [container-query-polyfill](https://cdn.jsdelivr.net/npm/container-query-polyfill@1/dist/container-query-polyfill.modern.js)
+This project is meant as a minimal project to show that react, tailwindcss and [container-query-polyfill](https://cdn.jsdelivr.net/npm/container-query-polyfill@1/dist/container-query-polyfill.modern.js)
 are not playing well together.
 
 The example is a simle line of text that should underling at 640px and wider.
